@@ -19,7 +19,7 @@ General Constraints
 0 <= i <= j <= N-1
 
 Example:
-Input
+Input:
 10
 1 30 13 -4 -5 12 -53 -12 43 100
 4
@@ -28,7 +28,7 @@ Input
 2 3
 7 9
 
-Output
+Output:
 47
 -19
 9
@@ -53,4 +53,5 @@ for k in range(1,n):
 for _ in range(q):
     i,j=map(int,input().split())
     res=sumofsubarrays(n,a,i,j)
-    print(res)
+    print("result:",res)
+
