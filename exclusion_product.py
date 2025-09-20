@@ -1,17 +1,17 @@
 '''Exclusion Product bookmark_borderYou are given an array of integers of size N. Create a new array such that the element at an index i in the new array is the product of all the elements of the original array except the element present at index i.
 
-Input Format
+Input Format:
 The first line of input contains T - the number of test cases. For each test case, the first line contains N - the size of the array. The second line contains N integers - the elements of the array.
 
-Output Format
+Output Format:
 For each test case, print the new array, separated by a new line. Since these numbers can be very large, print the numbers % 109 + 7
 
-Constraints
+Constraints:
 1 <= T <= 100
 2 <= N <= 105
 0 <= A[i] <= 105
 
-Example
+Example:
 Input
 2
 5
@@ -55,5 +55,6 @@ for _ in range(int(input())):
     for i in range(n-1,-1,-1):
         res[i]=(res[i]*r)%m 
         r=(r*arr[i])%m 
+
 
     print(*res)
