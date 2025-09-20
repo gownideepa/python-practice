@@ -1,12 +1,12 @@
 '''Given three arrays A, B, and C, choose a triplet a, b, c such that a, b, and c belong to the arrays A, B, and C respectively, such that the absolute difference between the maximum and minimum element of the chosen triplet is minimized, i.e., minimize |max(a,b,c)-min(a,b,c)|.
 
-Input Format
+Input Format:
 The first line of input contains T - the number of test cases. It is followed by 6T lines, the first line contains N1 - the size of the array A and the second line contains the elements of the array A. The third line contains N2 - the size of the array B and the fourth line contains the elements of the array B. The fifth line contains N3 - the size of the array C and the sixth line contains the array C elements.
 
-Output Format
+Output Format:
 For each test case, print the minimum absolute difference, separated by a newline.
 
-Constraints
+Constraints:
 10 points
 1 <= T <= 100
 1 <= N1, N2, N3 <= 100
@@ -22,7 +22,7 @@ Constraints
 1 <= N1, N2, N3 <= 10000
 0 <= A[i], B[i], C[i] <= 109
 
-Example
+Example:
 Input
 1
 5
@@ -35,7 +35,7 @@ Input
 Output
 1
 
-Explanation
+Explanation:
 
 Example 1: The triplet (5,6,6) belongs to the arrays A, B, and C respectively and it gives |max(a,b,c)-min(a,b,c)| = 1.
 
@@ -70,4 +70,5 @@ for i in range(int(input())):
             p2+=1
         else:
             p3+=1
+
     print(ans)
