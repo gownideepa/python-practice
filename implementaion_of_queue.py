@@ -4,14 +4,14 @@ Note:
  Do not use any inbuilt functions / libraries for the Queue.  Input Format
 The first line of input contains T - number of operations. It is followed by T lines, each line contains either "Enqueue x" or "Dequeue".
 
-Output Format
+Output Format:
 For each "Dequeue" operation, print the dequeued element, separated by a newline. If the queue is empty, print "Empty".
 
-Constraints
+Constraints:
 1 <= T <= 10000
 -100 <= x <= 100
 
-Example
+Example:
 Input
 8
 Enqueue 5
@@ -23,7 +23,7 @@ Dequeue
 Enqueue -10
 Dequeue
 
-Output
+Output:
 5
 Empty
 10
@@ -44,4 +44,5 @@ for i in range(t):
         if len(st1)==0:
             print("Empty")
         else:
+
             print(st1.pop(0))
