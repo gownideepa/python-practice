@@ -1,12 +1,12 @@
 '''Collecting Water bookmark_borderYou are given the heights of N buildings. All the buildings are of width 1 and are adjacent to each other with no empty space in between. Assume that it is raining heavily, and as such water will be accumulated on top of certain buildings. Your task is to find the total amount of water accumulated.
 
-Input Format
+Input Format:
 The first line of input contains T - the number of test cases. It's followed by 2T lines, the first line contains N - the number of buildings. The second line contains N elements denoting the height of the buildings.
 
-Output Format
+Output Format:
 For each test case, print the units of water accumulated, separated by a new line.
 
-Constraints
+Constraints:
 30 points
 1 <= T <= 1000
 1 <= N <= 1000
@@ -17,7 +17,7 @@ Constraints
 1 <= N <= 100000
 1 <= a[i] <= 1000
 
-Example
+Example:
 Input
 2
 16
@@ -29,7 +29,7 @@ Output
 22
 4
 
-Explanation
+Explanation:
 
 Example 1:
 
@@ -61,4 +61,5 @@ for _ in range(int(input())):
         sf[j]=max(sf[j+1],arr[j])
     for k in range(n):
         ans+=min(pf[k],sf[k])-arr[k]
+
     print(ans)
