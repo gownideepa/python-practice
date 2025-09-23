@@ -1,4 +1,4 @@
-'''Implement Queue bookmark_borderImplement the Queue data structure and perform Enqueue / Dequeue operations.
+Implement Queue bookmark_borderImplement the Queue data structure and perform Enqueue / Dequeue operations.
 
 Note: 
  Do not use any inbuilt functions / libraries for the Queue.  Input Format
@@ -30,7 +30,7 @@ Empty
 -15
 
 
-Solution:'''
+Solution:
 
 
 t=int(input())
@@ -46,3 +46,4 @@ for i in range(t):
         else:
 
             print(st1.pop(0))
+
