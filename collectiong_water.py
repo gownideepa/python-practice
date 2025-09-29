@@ -62,4 +62,5 @@ for _ in range(int(input())):
     for k in range(n):
         ans+=min(pf[k],sf[k])-arr[k]
 
-    print(ans)
+    print("The amount of water accumulated:",ans)
+
