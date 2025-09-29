@@ -21,11 +21,12 @@ data structures and algorithms
 Output:
 world hello
 d c b a
-algorithms and structures data
+algorithms and structures data'''
 
 
 
-Solution '''
+# Solution :
+#There are many ways to solve this . slicing is one of the way.
    
 
 
@@ -33,3 +34,4 @@ Solution '''
     string=list(map(str,input().split()))
 
     print(*(string[::-1]))
+
