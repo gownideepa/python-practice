@@ -59,4 +59,5 @@ for _ in range(int(input())):
             ans=max(ans,i-d[pf])
        
 
-    print(ans)
+    print("The length of the longest subarray which has an equal number of 0's and 1's : ",ans)
+
