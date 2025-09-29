@@ -1,4 +1,4 @@
-Exclusion Product bookmark_borderYou are given an array of integers of size N. Create a new array such that the element at an index i in the new array is the product of all the elements of the original array except the element present at index i.
+'''Exclusion Product bookmark_borderYou are given an array of integers of size N. Create a new array such that the element at an index i in the new array is the product of all the elements of the original array except the element present at index i.
 
 Input Format:
 The first line of input contains T - the number of test cases. For each test case, the first line contains N - the size of the array. The second line contains N integers - the elements of the array.
@@ -30,10 +30,10 @@ The product of all elements of the array except for the element at index 0 is 5 
 The product of all elements of the array except for the element at index 1 is 1 * 3 * 2 * 8 = 48
 The product of all elements of the array except for the element at index 2 is 1 * 5 * 2 * 8 = 80
 The product of all elements of the array except for the element at index 3 is 1 * 5 * 3 * 8 = 120
-The product of all elements of the array except for the element at index 4 is 1 * 5 * 3 * 2 = 30
+The product of all elements of the array except for the element at index 4 is 1 * 5 * 3 * 2 = 30 '''
 
 
-Solution :
+# Solution :
 
 
 
@@ -58,4 +58,5 @@ for _ in range(int(input())):
 
 
     print(*res)
+
 
