@@ -1,4 +1,4 @@
-First Missing Positive Integer:
+'''First Missing Positive Integer:
 
 
 You are given an array of integers of size N. Find the first positive integer that is missing from the array.
@@ -29,10 +29,10 @@ Output
 
 Explanation
 
-Example 1: The first missing positive integer is 3, as 1 and 2 are present in the array.
+Example 1: The first missing positive integer is 3, as 1 and 2 are present in the array.'''
 
 
-
+# Solution:
 t=int(input())
 for i in range(t):
     n=int(input())
@@ -56,3 +56,4 @@ for i in range(t):
     else:
 
         print(m)
+
