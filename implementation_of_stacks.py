@@ -4,14 +4,14 @@ Note:
  Do not use any inbuilt functions / libraries for the Stack.  Input Format
 The first line of input contains T - number of operations. It is followed by T lines, each line contains either "push x" or "pop".
 
-Output Format
+Output Format:
 For each "pop" operation, print the popped element, separated by a newline. If the stack is empty, print "Empty".
 
-Constraints
+Constraints:
 1 <= T <= 10000
 -100 <= x <= 100
 
-Example
+Example:
 Input
 8
 push 5
@@ -47,4 +47,5 @@ for i in range(t):
         if len(stack)==0:
             print("Empty")
         else:
+
             print(stack.pop())
