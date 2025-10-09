@@ -1,4 +1,4 @@
-'''
+
 Height of Tree bookmark_borderGiven an array of unique elements, construct a Binary Search Tree and find the height of the tree.
 
 Input Format
@@ -26,7 +26,9 @@ Output
 4
 2
 3
-'''
+
+
+
 class Node:
     def __init__(self,data):
         self.data=data
@@ -55,4 +57,5 @@ for i in range(t):
     n=int(input())
     a=list(map(int,input().split()))
     bst_root=create_bst(a)
+
     print(height(bst_root))
