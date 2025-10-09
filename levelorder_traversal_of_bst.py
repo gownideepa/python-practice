@@ -1,4 +1,4 @@
-'''
+
 Level Order of Tree bookmark_borderGiven an array of unique elements, construct a Binary Search Tree and print the Level Order of the tree.
 
 Input Format
@@ -37,7 +37,9 @@ Output
 0 5
 1 15
 7 17
-'''
+
+
+
 class Node:
     def __init__(self,data):
         self.data=data
@@ -76,4 +78,5 @@ for i in range(t):
     n=int(input())
     a=list(map(int,input().split()))
     bst_root=create_bst(a)
+
     levelorder(bst_root)
