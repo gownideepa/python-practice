@@ -1,4 +1,4 @@
-'''Implement Stack bookmark_borderImplement the Stack data structure and perform push / pop operations.
+Implement Stack bookmark_borderImplement the Stack data structure and perform push / pop operations.
 
 Note: 
  Do not use any inbuilt functions / libraries for the Stack.  Input Format
@@ -31,7 +31,6 @@ Empty
 
 
 Solution:
-'''
 
 
 
@@ -49,3 +48,4 @@ for i in range(t):
         else:
 
             print(stack.pop())
+
