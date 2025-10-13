@@ -1,4 +1,4 @@
-'''Problem Statement:
+Problem Statement:
 Sum of Subarrays bookmark_borderGiven an array of integers, answer queries of the form: [i, j]: Print the sum of array elements from A[i] to A[j], both inclusive.
 
 Input Format:
@@ -34,7 +34,9 @@ Output:
 9
 131
 
-solution:'''
+solution:
+
+
 def sumofsubarrays(n,a,i,j):
         
         if i==0:
@@ -54,4 +56,5 @@ for _ in range(q):
     i,j=map(int,input().split())
     res=sumofsubarrays(n,a,i,j)
     print("result:",res)
+
 
