@@ -1,4 +1,4 @@
-Collecting Water bookmark_borderYou are given the heights of N buildings. All the buildings are of width 1 and are adjacent to each other with no empty space in between. Assume that it is raining heavily, and as such water will be accumulated on top of certain buildings. Your task is to find the total amount of water accumulated.
+'''Collecting Water bookmark_borderYou are given the heights of N buildings. All the buildings are of width 1 and are adjacent to each other with no empty space in between. Assume that it is raining heavily, and as such water will be accumulated on top of certain buildings. Your task is to find the total amount of water accumulated.
 
 Input Format:
 The first line of input contains T - the number of test cases. It's followed by 2T lines, the first line contains N - the number of buildings. The second line contains N elements denoting the height of the buildings.
@@ -41,11 +41,11 @@ Hence, the total amount of water accumulated on the buildings is 5 + 16 + 1 = 22
 Example 2:
 Water accumulated on top of the buildings [2:2] = 1 
 Water accumulated on top of the buildings [4:4] = 3 
-Hence, the total amount of water accumulated on the buildings is 1 + 3 = 4.
+Hence, the total amount of water accumulated on the buildings is 1 + 3 = 4.'''
 
 
 
-Solution
+# Solution
 
 
 for _ in range(int(input())):
@@ -64,5 +64,6 @@ for _ in range(int(input())):
         ans+=min(pf[k],sf[k])-arr[k]
 
     print("The amount of water accumulated:",ans)
+
 
 
