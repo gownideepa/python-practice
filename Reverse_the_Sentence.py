@@ -1,3 +1,4 @@
+# problem statement that best explains reversing a string
 '''Reverse the Sentence bookmark_borderGiven a sentence, reverse the entire sentence word-by-word.
 
 Note: 
@@ -34,4 +35,5 @@ algorithms and structures data'''
     string=list(map(str,input().split()))
 
     print(*(string[::-1]))
+
 
