@@ -1,3 +1,4 @@
+#finding subarray of maximum sum and subarray of minimum sum as well and output the difference between the two subarrays
 '''Given three arrays A, B, and C, choose a triplet a, b, c such that a, b, and c belong to the arrays A, B, and C respectively, such that the absolute difference between the maximum and minimum element of the chosen triplet is minimized, i.e., minimize |max(a,b,c)-min(a,b,c)|.
 
 Input Format:
@@ -72,4 +73,5 @@ for i in range(int(input())):
             p3+=1
 
     print("The minimum difference between maximum and minimum value of a triplet:",ans)
+
 
