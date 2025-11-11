@@ -34,13 +34,6 @@ The product of all elements of the array except for the element at index 4 is 1 
 
 
 # Solution :
-
-
-
-
-
-
-
 for _ in range(int(input())):
     n=int(input())
     arr=list(map(int,input().split()))
@@ -58,5 +51,6 @@ for _ in range(int(input())):
 
 
     print(*res)
+
 
 
