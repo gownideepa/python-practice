@@ -1,3 +1,4 @@
+# the data which is present in the triple quotes represents problem statement
 '''Equal 0s and 1s:
 You are given an array of 0's and 1's. Find the length of the longest subarray which has an equal number of 0's and 1's.
 
@@ -60,4 +61,5 @@ for _ in range(int(input())):
        
 
     print("The length of the longest subarray which has an equal number of 0's and 1's : ",ans)
+
 
