@@ -1,4 +1,4 @@
-Problem Statement:
+'''Problem Statement:
 Substring Matching bookmark_borderYou are given two strings A and B. You are also given Q queries with 4 indices i, j, k, and l. Check whether the substring of A[i:j] matches the substring of B[k:l].
 
 Input Format:
@@ -43,7 +43,7 @@ No
 Yes
 
 
-Solution:
+Solution:'''
 
     
 for _ in range(int(input())):
@@ -62,4 +62,5 @@ for _ in range(int(input())):
             print("Yes")
         else:
             print("No")
+
 
