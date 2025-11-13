@@ -1,5 +1,5 @@
 
-Height of Tree bookmark_borderGiven an array of unique elements, construct a Binary Search Tree and find the height of the tree.
+'''Height of Tree bookmark_borderGiven an array of unique elements, construct a Binary Search Tree and find the height of the tree.
 
 Input Format
 The first line of input contains T - the number of test cases. It is followed by 2T lines. The first line of each test case contains N - the number of nodes in the BST. The next line contains N unique integers - value of the nodes.
@@ -25,7 +25,7 @@ Input
 Output
 4
 2
-3
+3 '''
 
 
 
@@ -59,3 +59,4 @@ for i in range(t):
     bst_root=create_bst(a)
 
     print(height(bst_root))
+
