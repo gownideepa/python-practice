@@ -1,5 +1,5 @@
 
-Tree Traversals bookmark_borderGiven an array of unique elements, construct a Binary Search Tree and print the Preorder, Inorder and Postorder Traversals of the tree.
+'''Tree Traversals bookmark_borderGiven an array of unique elements, construct a Binary Search Tree and print the Preorder, Inorder and Postorder Traversals of the tree.
 
 Input Format
 The first line of input contains T - the number of test cases. It is followed by 2T lines. The first line of each test case contains N - the number of nodes in the BST. The next line contains N unique integers - value of the nodes.
@@ -33,7 +33,7 @@ Output
 
 4 0 1 5 15 7 17
 0 1 4 5 7 15 17
-1 0 7 17 15 5 4
+1 0 7 17 15 5 4 '''
 
 
 class Node:
@@ -86,3 +86,4 @@ for i in range(t):
     postorder(bst_root)
 
     print()
+
