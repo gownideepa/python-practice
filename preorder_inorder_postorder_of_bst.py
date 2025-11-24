@@ -68,6 +68,7 @@ def postorder(root):
     postorder(root.left)
     postorder(root.right)
     print(root.data,end=" ")
+# creation of bst
 def create_bst(arr):
     root=None
     for ele in arr:
@@ -86,4 +87,5 @@ for i in range(t):
     postorder(bst_root)
 
     print()
+
 
