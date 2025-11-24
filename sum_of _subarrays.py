@@ -36,7 +36,7 @@ Output:
 
 solution:'''
 
-
+# function to find sumofsubarrays
 def sumofsubarrays(n,a,i,j):
         
         if i==0:
@@ -56,6 +56,7 @@ for _ in range(q):
     i,j=map(int,input().split())
     res=sumofsubarrays(n,a,i,j)
     print("result:",res)
+
 
 
 
