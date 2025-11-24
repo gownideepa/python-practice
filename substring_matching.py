@@ -45,7 +45,7 @@ Yes
 
 Solution:'''
 
-    
+# accepting the user input in for loop    
 for _ in range(int(input())):
     s=input()
     t=input()
@@ -62,5 +62,6 @@ for _ in range(int(input())):
             print("Yes")
         else:
             print("No")
+
 
 
