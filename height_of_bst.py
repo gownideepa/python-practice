@@ -34,6 +34,7 @@ class Node:
         self.data=data
         self.left=None
         self.right=None
+# creating a binary search tree
 def create_bst(arr):
     root=None 
     for ele in arr:
@@ -59,4 +60,5 @@ for i in range(t):
     bst_root=create_bst(a)
 
     print(height(bst_root))
+
 
