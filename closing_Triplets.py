@@ -75,3 +75,4 @@ for i in range(int(input())):
     print("The minimum difference between maximum and minimum value of a triplet:",ans)
 
 
+
